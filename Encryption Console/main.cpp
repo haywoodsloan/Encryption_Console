@@ -6,6 +6,7 @@ using namespace std;
 string alphabet = "abcdefghijklmnopqrstuvwxyz0123456789.,?!-ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 string removeDupLetters(string keyword){
+	
 	string tempText;
 
 	for (unsigned int i = 0; i < keyword.length(); i++){
@@ -19,6 +20,7 @@ string removeDupLetters(string keyword){
 }
 
 string removeInvalidLetters(string keyword){
+	
 	string tempText;
 
 	for (unsigned int i = 0; i < keyword.length(); i++){
@@ -91,6 +93,7 @@ string jellyshiftCryptobet(string keyword){
 }
 
 string encryptMessage(string message, string cryptobet){
+	
 	string tempText;
 
 	for (unsigned int i = 0; i < message.length(); i++){
@@ -109,6 +112,7 @@ string encryptMessage(string message, string cryptobet){
 }
 
 string decryptMessage(string message, string cryptobet){
+	
 	string tempText;
 
 	for (unsigned int i = 0; i < message.length(); i++){
