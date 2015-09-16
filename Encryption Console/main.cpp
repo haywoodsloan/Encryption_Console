@@ -3,7 +3,7 @@
 
 using namespace std;
 
-string alphabet = "abcdefghijklmnopqrstuvwxyz0123456789.,?!-ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+string alphabet = "abcdefghijklmnopqrstuvwxyz0123456789.,?!- ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 string removeDupLetters(string keyword){
 	
